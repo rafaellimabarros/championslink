@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+
+.containers{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.destaque1{
+    background-image: url('img/callcenter_icone.jpg'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    height: 260px;   
+    padding-right: 10px;
+    margin-right: 5px;
+}
+
+.destaque2{
+    background-image: url('img/noc_icone.jpg'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    height: 260px;   
+    padding-right: 10px;
+    margin-right: 5px;
+}
+
+.destaque3{
+    background-image: url('img/campo06.jpg'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    height: 260px;   
+    padding-right: 10px;
+    margin-right: 5px;
+}
+
+.vitrine { 
+    height: 34%; 
+    width: 100%;  
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+
+.links{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.links:hover{
+	color: white;
+}
+
+.col{
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.col:hover .destaque1,
+.col:focus .destaque1 {
+
+  transform: scale(1.2);
+  transition: all 1.2s;
+}
+
+.col:hover .destaque2,
+.col:focus .destaque2 {
+
+  transform: scale(1.2);
+  transition: all 1.2s;
+}
+
+.col:hover .destaque3,
+.col:focus .destaque3 {
+
+  transform: scale(1.2);
+  transition: all 1.2s;
+}
+
+.imagem_parallax{
+    background-image: url('img/banner_info.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;   
+}
+
+.titulorel{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.parametrosform{
+    border: 1px solid black;
+    margin-left: 3%;
+    border-radius:10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);    
+}
+
+.labelform{
+    color: white;
+    font-size: 16px;
+    font-weight: bold; 
+    text-shadow: 2px 2px 1px black;
+}
+
+.detalhes{
+    color: darkblue;
+}
+
