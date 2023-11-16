@@ -74,7 +74,7 @@ if ($_SESSION['perfil'] == 'cs2'){
                                                 <option> <?php echo $row_func_call['id_funcionario']; echo " - "; echo $row_func_call['nome_funcionario'];?>
                                                 </option> <?php
                                             }
-                                            ?>                                         
+                                            ?>
                                     </select><br><br>
 
                                     <label class="labelform"> Rodada </label>
